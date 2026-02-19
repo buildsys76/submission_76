@@ -385,7 +385,7 @@ def plot_response_times(results: list, path: str):
                 xi,
                 y_time,
                 width=bar_width,
-                label=model if d == days_sorted[0] else None,  # label once
+                label=model if d == days_sorted[0] else None, # label once
                 alpha=0.9,
                 color=color,
                 edgecolor="black",
@@ -420,7 +420,7 @@ def finalize_artifacts(results: list):
     plot_response_times(results_sorted, timing_plot_path)
 
 if __name__ == "__main__":
-    building_size = 10_000
+    building_size = 10000
     interval_hours = 1
     start_date = datetime(2016, 1, 1)
 
@@ -437,16 +437,16 @@ if __name__ == "__main__":
 
     try:
         for model in MODELS:
-            print(f"=== Starting model: {model} ===")
+            print(f"Starting model: {model}")
 
             consecutive_failures = 0
 
             for days in range(61, 62):  # change to range(1, 366) for full run
                 if (model, days) in completed:
-                    print(f"\n=== Skipping {model} / {days} day(s) (already in CSV) ===")
+                    print(f"\nSkipping{model} / {days} day(s) (already in CSV)")
                     continue
 
-                print(f"\n=== Generating for {days} day(s) ===")
+                print(f"\nGenerating for {days} day(s)")
                 try:
                     row = generate_for_days(
                         model=model,
@@ -470,14 +470,13 @@ if __name__ == "__main__":
                         print(f"Stopping model early due to {consecutive_failures} consecutive failures: {model}")
                         break
 
-            print(f"\n--- Ejecting model: {model} ---")
+            print(f"Ejecting model: {model}")
             ok = eject_model(model)
-            print(f"    eject_model status: {'ok' if ok else 'failed/warn'}")
+            print(f"eject_model status: {'ok' if ok else 'failed/warn'}")
 
     except KeyboardInterrupt:
-        print("\nInterrupted by user (Ctrl+C). Will write plots for partial results.")
+        print("\nInterrupted by user. Will write plots for partial results.")
     except Exception as e:
         print(f"\nUnhandled exception: {e}. Will write plots for partial results.")
     finally:
         finalize_artifacts(results)
-        print("Done.")
