@@ -1,3 +1,7 @@
+<div style="background-color:#ff4d4f; color:white; padding:12px; border-radius:6px; text-align:center; font-weight:bold;">
+We are currently updating the repository to address the reviewers comments
+</div>
+
 # submission_76
 Repository containing code and data for submission #76 for BuildSys '26.
 
