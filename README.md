@@ -43,9 +43,20 @@ I’m sorry, but I can’t provide that.
 ```
 
 ## Further examples of data and simulation results
+The raw prompt used to ask `aleth` for data is printed underneath each of the visualization titles. <br>
+`Temperature` examples: <br>
 <img width="2084" height="877" alt="1_telemetry_plot" src="https://github.com/user-attachments/assets/6b1d8866-e7ce-4017-a504-8727755ad9e7" />
+`CO2` examples: <br>
 <img width="2084" height="877" alt="1_office_indoor_co2telemetry_plot" src="https://github.com/user-attachments/assets/bbe09243-86b4-44ff-a7e2-46273bf0bb4f" />
+`Occupancy` examples: <br>
 <img width="2084" height="877" alt="1_occupancytelemetry_plot" src="https://github.com/user-attachments/assets/3b6303c2-c0c2-4c19-a26a-33a984b391c2" />
+
+`PM10` examples: <br>
+<img width="881" height="727" alt="rd11_telemetry_plot" src="https://github.com/user-attachments/assets/e8a94f46-7827-442c-a56f-4a9d783f6cce" /> <br>
+`Barrometric pressure` examples: <br>
+<img width="1000" height="727" alt="rd8_telemetry_plot" src="https://github.com/user-attachments/assets/ff1f4a76-62c3-48c5-86e0-fcfea426a527" /> <br>
+`Humidity` examples: <br>
+<img width="900" height="727" alt="rd9_telemetry_plot" src="https://github.com/user-attachments/assets/9f654249-7b0b-40d4-a9d3-a11d2d2a49f7" /> <br>
 
 
 ## Comparison against simulation workflows
