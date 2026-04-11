@@ -41,3 +41,5 @@ Alternatively, models can also simply refuse to generate the output (based on th
 ```bash
 I’m sorry, but I can’t provide that.
 ```
+
+## Comparison against simulation workflows
