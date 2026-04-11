@@ -42,4 +42,10 @@ Alternatively, models can also simply refuse to generate the output (based on th
 I’m sorry, but I can’t provide that.
 ```
 
+## Further examples of data and simulation results
+<img width="2084" height="877" alt="1_telemetry_plot" src="https://github.com/user-attachments/assets/6b1d8866-e7ce-4017-a504-8727755ad9e7" />
+<img width="2084" height="877" alt="1_office_indoor_co2telemetry_plot" src="https://github.com/user-attachments/assets/bbe09243-86b4-44ff-a7e2-46273bf0bb4f" />
+<img width="2084" height="877" alt="1_occupancytelemetry_plot" src="https://github.com/user-attachments/assets/3b6303c2-c0c2-4c19-a26a-33a984b391c2" />
+
+
 ## Comparison against simulation workflows
