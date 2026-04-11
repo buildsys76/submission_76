@@ -58,5 +58,11 @@ The raw prompt used to ask `aleth` for data is printed underneath each of the vi
 `Humidity` examples: <br>
 <img width="900" height="727" alt="rd9_telemetry_plot" src="https://github.com/user-attachments/assets/9f654249-7b0b-40d4-a9d3-a11d2d2a49f7" /> <br>
 
+## Failure cases for simulation
+Examples of failure cases, where the ranges generated are either constant or resembling a rectangular function (https://en.wikipedia.org/wiki/Rectangular_function) which is again unlikely to be the case for real-world sensing measurements. 
+<img width="883" height="727" alt="rd13_telemetry_plot" src="https://github.com/user-attachments/assets/42884d1d-854e-4242-b259-de34b61d5f2e" />
+<img width="882" height="727" alt="error_occupancy_telemetry_plot" src="https://github.com/user-attachments/assets/4b0598a7-a1dc-4f64-9192-1f2bdc192dab" />
+<img width="1165" height="727" alt="rd6_telemetry_plot" src="https://github.com/user-attachments/assets/5082cb9e-d355-44e0-8ffb-2cf3f2fe1d8c" />
+
 
 ## Comparison against simulation workflows
