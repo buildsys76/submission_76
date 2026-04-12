@@ -3,7 +3,9 @@ We are currently updating the repository to address the reviewers comments
 </div>
 
 # submission_76
-Repository containing code and data for submission #76 for BuildSys '26.
+Repository containing code and data for submission #76 for BuildSys '26. <br>
+<img width="500" height="500" alt="aleth_diagram" src="https://github.com/user-attachments/assets/9d0d6536-eef7-4877-af37-6a31c2e9ff73" /> <br>
+Each of the components described in the architecture can be found under [https://github.com/buildsys76/submission_76/tree/main/code/experiments_figures_tables/results/aleth](https://github.com/buildsys76/submission_76/tree/main/code/experiments_figures_tables/results/aleth) alongside instructions for reproducibility.
 
 ## Code for experiments and figures
 Code used in the experiments can be found under `code`. For reproducibility in particular, check: `code/experiments_figures_tables/README.md`.
