@@ -71,3 +71,10 @@ Examples of failure cases, where the ranges generated are either constant or res
 
 
 ## Comparison against simulation workflows
+Currently, as a comparison between alternatives at obtaining building sensor data, we have considered the case of either using a fully fledged simulator --specifically, EnergyPlus-- for a yardstick of what a digital-twin, physics based simulator requires from users, or what is already available as an alternative to low-barrier telemetry (using proprietary or open-wright models to generate code for simulating data).
+
+| Feature                      | Aleth                                             | EnergyPlus                      | AI Assistants (e.g., ChatGPT-like)                           |
+| ---------------------------- | ------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ |
+| **Building Model Required**  | No                                               | Yes                             | No                              |
+| **Natural Language Enabled** | Yes                                               | No                              | Yes                                      |
+| **Level of realism (as in paper)**         | Good for lightweight prototyping (plausible, but not fully physics-based) | High (physics-based simulation) | Unreliable (unrealistic synthesis over long duration) |
