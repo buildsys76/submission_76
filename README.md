@@ -44,25 +44,30 @@ I’m sorry, but I can’t provide that.
 
 ## Further examples of data and simulation results
 The raw prompt used to ask `aleth` for data is printed underneath each of the visualization titles. <br>
-`Temperature` examples: <br>
-<img width="2084" height="877" alt="1_telemetry_plot" src="https://github.com/user-attachments/assets/6b1d8866-e7ce-4017-a504-8727755ad9e7" />
-`CO2` examples: <br>
-<img width="2084" height="877" alt="1_office_indoor_co2telemetry_plot" src="https://github.com/user-attachments/assets/bbe09243-86b4-44ff-a7e2-46273bf0bb4f" />
-`Occupancy` examples: <br>
-<img width="2084" height="877" alt="1_occupancytelemetry_plot" src="https://github.com/user-attachments/assets/3b6303c2-c0c2-4c19-a26a-33a984b391c2" />
+#### `Temperature` examples: <br>
+<img width="300" height="300" alt="1_telemetry_plot" src="https://github.com/user-attachments/assets/6b1d8866-e7ce-4017-a504-8727755ad9e7" /> <br>
+#### `CO2` examples: <br>
+<img width="300" height="300" alt="1_office_indoor_co2telemetry_plot" src="https://github.com/user-attachments/assets/bbe09243-86b4-44ff-a7e2-46273bf0bb4f" /> <br>
+#### `Occupancy` examples: <br>
+<img width="300" height="300" alt="1_occupancytelemetry_plot" src="https://github.com/user-attachments/assets/3b6303c2-c0c2-4c19-a26a-33a984b391c2" /> <br>
+#### `Electricity` examples (also with throughput): <br>
+3-year data (100k sqft school) <img width="300" height="300" alt="telemetry_daily_mean_electricity_5" src="https://github.com/user-attachments/assets/05816409-e36d-4346-85a3-b4bd0e7cd1ce" /><br>
+Latency per request for a 3-year electricity timeseries (100k sqft school) <img width="300" height="300" alt="llm_request_times_electricity_5" src="https://github.com/user-attachments/assets/4c212a59-8f70-4d5b-9bd6-0c61ceb5e7ad" /><br>
+Latency per request for a 1-year electricity timeseries (100k sqft school) 
+<img width="300" height="300" alt="llm_request_times_electricity_4" src="https://github.com/user-attachments/assets/b394d1b6-96b7-44c2-ab1c-d5d4a566b766" /><br>
 
-`PM10` examples: <br>
-<img width="881" height="727" alt="rd11_telemetry_plot" src="https://github.com/user-attachments/assets/e8a94f46-7827-442c-a56f-4a9d783f6cce" /> <br>
-`Barrometric pressure` examples: <br>
-<img width="1000" height="727" alt="rd8_telemetry_plot" src="https://github.com/user-attachments/assets/ff1f4a76-62c3-48c5-86e0-fcfea426a527" /> <br>
-`Humidity` examples: <br>
-<img width="900" height="727" alt="rd9_telemetry_plot" src="https://github.com/user-attachments/assets/9f654249-7b0b-40d4-a9d3-a11d2d2a49f7" /> <br>
+#### `PM10` examples: <br>
+<img width="300" height="300" alt="rd11_telemetry_plot" src="https://github.com/user-attachments/assets/e8a94f46-7827-442c-a56f-4a9d783f6cce" /> <br>
+#### `Barrometric pressure` examples: <br>
+<img width="300" height="300" alt="rd8_telemetry_plot" src="https://github.com/user-attachments/assets/ff1f4a76-62c3-48c5-86e0-fcfea426a527" /> <br>
+#### `Humidity` examples: <br>
+<img width="300" height="300" alt="rd9_telemetry_plot" src="https://github.com/user-attachments/assets/9f654249-7b0b-40d4-a9d3-a11d2d2a49f7" /> <br>
 
 ## Failure cases for simulation
-Examples of failure cases, where the ranges generated are either constant or resembling a rectangular function (https://en.wikipedia.org/wiki/Rectangular_function) which is again unlikely to be the case for real-world sensing measurements. 
-<img width="883" height="727" alt="rd13_telemetry_plot" src="https://github.com/user-attachments/assets/42884d1d-854e-4242-b259-de34b61d5f2e" />
-<img width="882" height="727" alt="error_occupancy_telemetry_plot" src="https://github.com/user-attachments/assets/4b0598a7-a1dc-4f64-9192-1f2bdc192dab" />
-<img width="1165" height="727" alt="rd6_telemetry_plot" src="https://github.com/user-attachments/assets/5082cb9e-d355-44e0-8ffb-2cf3f2fe1d8c" />
+Examples of failure cases, where the ranges generated are either constant or resembling a rectangular function (https://en.wikipedia.org/wiki/Rectangular_function) which is again unlikely to be the case for real-world sensing measurements. <br>
+<img width="300" height="300" alt="rd13_telemetry_plot" src="https://github.com/user-attachments/assets/42884d1d-854e-4242-b259-de34b61d5f2e" /> <br>
+<img width="300" height="300" alt="error_occupancy_telemetry_plot" src="https://github.com/user-attachments/assets/4b0598a7-a1dc-4f64-9192-1f2bdc192dab" /> <br>
+<img width="300" height="300" alt="rd6_telemetry_plot" src="https://github.com/user-attachments/assets/5082cb9e-d355-44e0-8ffb-2cf3f2fe1d8c" /> <br>
 
 
 ## Comparison against simulation workflows
