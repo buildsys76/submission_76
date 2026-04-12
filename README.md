@@ -71,10 +71,11 @@ Examples of failure cases, where the ranges generated are either constant or res
 
 
 ## Comparison against simulation workflows
-Currently, as a comparison between alternatives at obtaining building sensor data, we have considered the case of either using a fully fledged simulator --specifically, EnergyPlus-- for a yardstick of what a digital-twin, physics based simulator requires from users, or what is already available as an alternative to low-barrier telemetry (using proprietary or open-wright models to generate code for simulating data).
+Currently, as a comparison between alternatives for obtaining building sensor data, we consider both physics-based simulation workflows (e.g., EnergyPlus and tools built on top of it such as synconn_build) as a benchmark for required inputs, setup complexity, and achievable realism. These are contrasted with low-barrier approaches enabled by LLMs, which generate simulation code or data pipelines directly from natural language descriptions.
 
-| Feature                      | Aleth                                             | EnergyPlus                      | AI Assistants (e.g., ChatGPT-like)                           |
-| ---------------------------- | ------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ |
-| **Building Model Required**  | No                                               | Yes                             | No                              |
-| **Natural Language Enabled** | Yes                                               | No                              | Yes                                      |
-| **Level of realism (as in paper)**         | Good for lightweight prototyping (plausible, but not fully physics-based) | High (physics-based simulation) | Unreliable (unrealistic synthesis over long duration) |
+| Feature                            | Aleth                                                                     | EnergyPlus                      | synconn_build                                                                                  | AI Assistants (e.g., ChatGPT-like)                    |
+| ---------------------------------- | ------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Building model eequired            | No                                                                        | Yes                             | Yes                                                                                            |                No                                     |
+| Natural language interface         | Yes                                                                       | No                              | No                                                                                             |                Yes                                    |
+| Realism | Good for lightweight prototyping (plausible, but not fully physics-based) | Physics-based simulation | Physics-based (stochastic synthetic dataset generation for controls/ML benchmarking) | Unreliable (unrealistic synthesis over long duration) |
+
