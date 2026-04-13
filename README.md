@@ -61,6 +61,11 @@ Latency per request for a 1-year electricity timeseries (100k sqft school)
 #### `Humidity` examples: <br>
 <img width="300" height="300" alt="rd9_telemetry_plot" src="https://github.com/user-attachments/assets/9f654249-7b0b-40d4-a9d3-a11d2d2a49f7" /> <br>
 
+## Example of generalization capabilities to more "exotic" modalities `Water conductivity` example with plausible values
+<img width="300" height="300" alt="water_conductivity_aleth" src="https://github.com/user-attachments/assets/0c260f26-669a-42b2-9711-edf6e5fef8a9" /> <br>
+Aleth correctly inferred the unit of measurement, i.e., `µS/cm` and predicted plausible ranges ([https://atlas-scientific.com/blog/water-conductivity-range/?srsltid=AfmBOopMWGKpRsKt2VfqfNWXtQU48EqNbpXLhvO-Yx2X2ry8H55nrAAB](https://atlas-scientific.com/blog/water-conductivity-range/?srsltid=AfmBOopMWGKpRsKt2VfqfNWXtQU48EqNbpXLhvO-Yx2X2ry8H55nrAAB)).
+
+
 ## Failure cases for simulation
 Examples of failure cases, where the ranges generated are either constant or resembling a rectangular function (https://en.wikipedia.org/wiki/Rectangular_function) which is again unlikely to be the case for real-world sensing measurements. <br>
 <img width="300" height="300" alt="rd13_telemetry_plot" src="https://github.com/user-attachments/assets/42884d1d-854e-4242-b259-de34b61d5f2e" /> <br>
