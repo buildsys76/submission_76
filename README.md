@@ -53,6 +53,13 @@ The raw prompt used to ask `aleth` for data is printed underneath each of the vi
 Latency per request for a 3-year electricity timeseries (100k sqft school) <img width="300" height="300" alt="llm_request_times_electricity_5" src="https://github.com/user-attachments/assets/4c212a59-8f70-4d5b-9bd6-0c61ceb5e7ad" /><br>
 Latency per request for a 1-year electricity timeseries (100k sqft school) 
 <img width="300" height="300" alt="llm_request_times_electricity_4" src="https://github.com/user-attachments/assets/b394d1b6-96b7-44c2-ab1c-d5d4a566b766" /><br>
+#### `Energy metering` examples (school, 1k sqft): <br>
+<img width="300" height="300" alt="telemetry_timeseries_5" src="https://github.com/user-attachments/assets/f8232b67-4053-46fe-9f95-19ad7faee407" />
+<img width="300" height="300" alt="telemetry_timeseries_4" src="https://github.com/user-attachments/assets/e2aa1770-60aa-4bb3-b01c-1a0a73ecccc4" />
+<img width="300" height="300" alt="telemetry_timeseries_3" src="https://github.com/user-attachments/assets/764003dd-0847-4148-916c-f43b173e6c4c" />
+<img width="300" height="300" alt="telemetry_timeseries_2" src="https://github.com/user-attachments/assets/ec8c1489-34a8-4de9-a5f8-4afa3f3cd156" />
+<img width="300" height="300" alt="telemetry_timeseries_1" src="https://github.com/user-attachments/assets/b468df3f-6eb8-46cb-8ffc-0ba3394a9ccd" />
+
 
 #### `PM10` examples: <br>
 <img width="300" height="300" alt="rd11_telemetry_plot" src="https://github.com/user-attachments/assets/e8a94f46-7827-442c-a56f-4a9d783f6cce" /> <br>
