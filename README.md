@@ -1,6 +1,6 @@
 # submission_76
 Repository containing code and data for submission #76 for BuildSys '26. <br>
-<img width="700" height="300" alt="aleth_diagram" src="https://github.com/user-attachments/assets/9d0d6536-eef7-4877-af37-6a31c2e9ff73" /> <br>
+<img width="1387" height="499" alt="aleth_diagram" src="https://github.com/user-attachments/assets/20b58675-9967-4967-b8da-6f3c7c720944" /> <br>
 Each of the components described in the architecture can be found under [https://github.com/buildsys76/submission_76/tree/main/code/experiments_figures_tables/results/aleth](https://github.com/buildsys76/submission_76/tree/main/code/experiments_figures_tables/results/aleth) alongside instructions for reproducibility.
 
 ## Code for experiments and figures
